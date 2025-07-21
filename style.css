@@ -1,0 +1,50 @@
+/* Base typography */
+body {
+  font: 300 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+/* Headings */
+h1, h2, h3 {
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+/* Paragraphs and blockquotes */
+p {
+  margin-bottom: 1.5rem;
+}
+blockquote {
+  margin: 1.5rem 2rem;
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, a:focus {
+  color: #004b99;
+  text-decoration: underline;
+}
+
+/* Responsive typography using rem units */
+html {
+  font-size: 100%;
+}
+@media (max-width: 600px) {
+  html { font-size: 90%; }
+}
